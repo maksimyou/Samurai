@@ -1,0 +1,25 @@
+.title-catalog-of-seats-catalog {
+    margin: 0;
+}
+
+.filter-samurai-catalog {
+    display: block;
+    margin: 0;
+}
+
+.title-catalog-of-seats-filter__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1172px;
+    margin: 0 auto;
+    margin-bottom: calc(22px + 14 * ((100vw - 320px) / (1920 - 320)));
+}
+
+@media (max-width: 768px) {
+    .title-catalog-of-seats-filter__container {
+        flex-wrap: wrap;
+        gap: 19px;
+        justify-content: center;
+    }
+}
